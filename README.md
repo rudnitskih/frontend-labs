@@ -1,47 +1,46 @@
 
-
-
 # Lab 1
 
 Тема: 
 Мета: Створення динамічною веб-сторінки засобами HTML/CSS/JS для відображення даних серверу. Ознайомитися з системою контролю Git, навчитися деплоїти проект на GitHub Pages. Ознайомитися з можливостями HTML5 API та об'єктом Window and Document.
-1.1 Верстка с помощью Bootstrap (использование CSS фрейомворки)
-1.2 Робота С DOM
-1.3 Робота с браузерным API: Ajax (завантаження JSON даних до таблиці), WebStorage, Media
+1. Верстка с помощью Bootstrap (использование CSS фрейомворки)
+2. Робота С DOM
+3. Робота с браузерным API: Ajax (завантаження JSON даних до таблиці), WebStorage, Media
 
 # Lab 2
 
 Мета: Навчитись використовувати плагіни та бібліотеки сторонніх розробників.
 Список корисних інструментів для ознайомлення: 
-2.1 Сортування, фільтрація, пагінація(Select2)
-2.2 Модали, таби (Fancy Box, Bootstrap )
-2.3 Работа с датами( Moment.js, Date Picker )
-2.4 Валидация данных( jQuery.inputMask )
-2.5 Особенности кросбаузерных приложений( Modernizr )
-2.6 Визуализация  данных( Highcharts )
+1. Сортування, фільтрація, пагінація(Select2)
+2. Модали, таби (Fancy Box, Bootstrap )
+3. Работа с датами( Moment.js, Date Picker )
+4. Валидация данных( jQuery.inputMask )
+5. Особенности кросбаузерных приложений( Modernizr )
+6. Визуализация  данных( Highcharts )
+7. *Сложная разметка с помощью isotope
 
-* Сложная разметка с помощью isotope
 Бібліотеки/:
+* jQuery
+* Underscore
+* Lodash
+* Prototype
+* Isotope
+* Greensock animation
+* Fabric.js
+* D3.js
 
-- jQuery
-- Underscore
-- Lodash
-- Prototype
-- Isotope
-- Greensock animation
-
-Список плагінів: 
-- Ion Slider 
-- Owlcarousel
-- Range Picker
-- Parallax
-- dotdotdot
-- Likely by Birman
-- jsScrollPane
-- Headroom
-- jQuery.lazyload
-- fotorama
-- Wow.js 
+Додаткові плагіни: 
+* Ion Slider 
+* Owlcarousel
+* Range Picker
+* Parallax
+* dotdotdot
+* Likely by Birman
+* jsScrollPane
+* Headroom
+* jQuery.lazyload
+* fotorama
+* Wow.js 
 
 
 ***
