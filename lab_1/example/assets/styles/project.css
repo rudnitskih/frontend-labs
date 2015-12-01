@@ -89,17 +89,17 @@ body {
  * Placeholder dashboard ideas
  */
 
-.placeholders {
+.champions {
   margin-bottom: 30px;
   text-align: center;
 }
-.placeholders h4 {
+.champion-title {
   margin-bottom: 0;
 }
-.placeholder {
+.champions {
   margin-bottom: 20px;
 }
-.placeholder img {
+.champion-image {
   display: inline-block;
   border-radius: 50%;
 }
