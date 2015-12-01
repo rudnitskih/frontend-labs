@@ -43,10 +43,12 @@
 * [HTML5Rocks](http://www.html5rocks.com) - непоганий ресурс по html5(анг.)
 * [CSS-Tricks](https://css-tricks.com/) - ресурс де показаны прикольні трюки на CSS
 * [WEBREF](//webref.ru) - колишній htmlbook.ru, який вважався найбільш повним ресурсом по документації( зараз більш акутальна інформація на MDN )
+* 
 Книги: 
 * [JavaScript Patterns](http://www.amazon.com/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752/)
 * [JavaScript: The Definitive Guide](http://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527)
 * [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/)
+
 # Lab 2
 
 Мета: Навчитись використовувати плагіни та бібліотеки сторонніх розробників.
