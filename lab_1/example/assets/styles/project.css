@@ -74,6 +74,7 @@ body {
 .main {
   padding: 20px;
 }
+
 @media (min-width: 768px) {
   .main {
     padding-right: 40px;
@@ -84,22 +85,49 @@ body {
   margin-top: 0;
 }
 
-
 /*
- * Placeholder dashboard ideas
+ * Styles for champions block
  */
-
-.placeholders {
+ 
+.champions {
   margin-bottom: 30px;
   text-align: center;
 }
-.placeholders h4 {
+
+.champion-title {
   margin-bottom: 0;
 }
-.placeholder {
+
+.champions {
   margin-bottom: 20px;
 }
-.placeholder img {
-  display: inline-block;
+
+.champion-place {
   border-radius: 50%;
+  width: 165px;
+  height: 165px;
+  font-family: serif;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.champion-place:after {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.champion:nth-child(1) .champion-place{
+  background-color: gold;
+}
+
+.champion:nth-child(2) .champion-place{
+  background-color: silver;
+}
+
+.champion:nth-child(3) .champion-place{
+  background-color: #CD7F32;
 }
