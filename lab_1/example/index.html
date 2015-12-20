@@ -17,7 +17,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Англійська прем’єр-ліга</a>
+					<a class="navbar-brand" href="/">Англійська прем’єр-ліга</a>
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<form class="navbar-form navbar-right">
@@ -31,22 +31,24 @@
 			<div class="row">
 				<div class="col-sm-3 col-md-2 sidebar">
 					<ul class="nav nav-sidebar">
+						<!-- Это пример использования самого простого шаблонизатора, строки вида "<%=years%>" будут заменяться на реальные значения, схема использования очень проста: брузер не разбирает все что находиться внутри <script type="template">, а воспринимает как текст. В самом скрипте мы просто заменям шаблон на реальные значения  -->
 						<script type="template" name="nav-years">
 							<li class="nav-sidebar-item"><a><span><%=years%></span></a></li>
 						</script>
 					</ul>
 				</div>
+				<!-- "col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2" - подобные классы необходимы для создания сетки, подробнее http://getbootstrap.com/css/#grid-->
 				<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 					<h1 class="page-header">Чемпіони</h1>
 
-					<script type="template" name="champion">
-						<div class="col-xs-6 col-sm-3 champion">
-							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive champion-image" alt="">
-							<h4 class="champion-title"><%=championName%></h4>
-							<span class="text-muted champion-score">Total score: <%=championScore%></span>
-						</div>
-					</script>
 					<div class="row champions">
+						<script type="template" name="champion">
+							<div class="col-xs-4 champion">
+								<div class="champion-place"><%=championPlace%></div>
+								<h4 class="champion-title"><%=championName%></h4>
+								<span class="text-muted champion-score">Total score: <%=championScore%></span>
+							</div>
+						</script>
 					</div>
 
 					<h2 class="sub-header">Матчі</h2>
@@ -60,6 +62,7 @@
 								</tr>
 							</thead>
 							<tbody class="matches-results__body">
+								<!-- Это пустая таблица, будет заполнена скриптом который приходит  -->
 							</tbody>
 						</table>
 					</div>
