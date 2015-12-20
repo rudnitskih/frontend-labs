@@ -128,7 +128,6 @@
 	}
 
 	function renderChampions (results) {
-		console.log(results);
 		var key,
 			teamsArray = [],
 			length = 3,
